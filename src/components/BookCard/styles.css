@@ -1,0 +1,19 @@
+.book-card {
+  flex: 1 0 25%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 2px;
+  max-width: 290px;
+  margin: 10px;
+}
+
+.book-card:hover {
+  background-color: white;
+}
+
+.book-card img {
+  max-width: 100%;
+  height: auto;
+}
